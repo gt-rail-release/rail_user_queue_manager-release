@@ -1,0 +1,4 @@
+uint32 user_id     # The user ID
+bool enqueue       # True to enqueue, false to dequeue
+uint32 study_time  # Time in seconds this user gets if enqueing
+---
