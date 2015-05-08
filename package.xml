@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>rail_user_queue_manager</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>Server Side ROS Queue Node</description>
 
   <author email="pdmitrano@wpi.edu">Peter Mitrano</author>
