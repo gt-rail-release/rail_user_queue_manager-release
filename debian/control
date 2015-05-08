@@ -1,0 +1,12 @@
+Source: ros-hydro-rail-user-queue-manager
+Section: misc
+Priority: extra
+Maintainer: David Kent <davidkent@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-roscpp
+Homepage: http://ros.org/wiki/queue_manager
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rail-user-queue-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-roscpp
+Description: Server Side ROS Queue Node
