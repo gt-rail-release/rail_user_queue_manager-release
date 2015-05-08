@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
   return EXIT_SUCCESS;
 }
 
-UserQueueManager::UserQueueManager() : countdown_(DEFAULT_TRIAL), run_countdown_(false)
+UserQueueManager::UserQueueManager() : countdown_(DEFAULT_TRIAL), run_countdown_(false), private_node_("~")
 {
   //sent out queue
   ros::Publisher queue_pub = private_node_.advertise<rail_user_queue_manager::Queue>("queue", 1000);
@@ -89,7 +89,7 @@ UserQueueManager::UserQueueManager() : countdown_(DEFAULT_TRIAL), run_countdown_
 
       position++;
 
-      ROS_INFO("user %i", user_status.user_id);
+      //ROS_INFO("user %i", user_status.user_id);
     }
 
     //publish the queue message
