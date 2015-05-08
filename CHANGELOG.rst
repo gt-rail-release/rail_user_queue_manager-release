@@ -2,6 +2,12 @@
 Changelog for package rail_user_queue_manager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2015-05-08)
+------------------
+* Update rail_user_queue_manager.cpp
+* Initialized private node handle
+* Contributors: David Kent, Russell Toris
+
 0.0.1 (2015-05-07)
 ------------------
 * Update rail_user_queue_manager.cpp
